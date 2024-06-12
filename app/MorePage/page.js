@@ -1,7 +1,6 @@
 "use client"; // Add this at the top of your file
 
 import Confetti from '@/components/Confetti'
-import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
 
