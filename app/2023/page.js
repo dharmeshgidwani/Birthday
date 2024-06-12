@@ -1,14 +1,56 @@
-import React from 'react'
-import Confetti from '@/Components/Confetti'
+import React from "react";
+import Confetti from "@/Components/Confetti";
 
 const page = () => {
   return (
-    <div className='bg-pink-200 min-h-screen w-full p-5 flex flex-col justify-center items-center'>
-        <Confetti />
-        <p>Happy Birthday Babezz💛🐷🦛I know i don’t say it enough aur enough bhi kya kabhi hii ni bolti hamesha tu mujhe bolta hai par babezz tu bhi best hai yaar. From being the chhole to my bhature, my personal photographer and my tutor tu sab hii krleta hai sahi bolti hu mai perfect hai tu. Mere bags aur purse se leke drame sab utha leta h tu. par khud bhi boht krta hai. Mujhe rulata bhi tu hai aur chup bhi tuhi krata h aur fr mujhe dekh k khud bhi rota hai. Gussa bhi chadata h fr mood bhi khud theek krta h. Bas monday ko apna mood ni theek kr pata. If there is one person i can be however i am with, is you. Gande se gande jokes(jo tere se seekha hai) sunane se, nayi nayi khane ki jagah discover krna,gandi se gandi movies dekhna,100 adjectives se ek dusre ko bulana, diljit ka har gana har movie pe vibe krna aur kon krta ye mere saath. Merse itne thappad khana aur irritate krna is my love language ko smjhna ab har kisi k bass ki baat thodi hai. Log chahe sau baar judge krte ho hamko but they’ll never get us kioki unke pass tere jaisa dost nahi h na yaar na mai milne dungi kisi ko. If not you i wouldn’t want it any way else. I never knew friendships like this existed until u showed it to me. I can’t imagine a life without you in it(jgah hii itni leta h). I wish i had found you earlier toh ab hamari non decreasing dosti aur bhi achi hoti.  Since you make me the happiest toh Happiest 5.2nd birthday to you babezz!!! Love you💛. And no distance, condition or argument will ever change what you mean to me.</p>
+    <div className="bg-pink-200 min-h-screen w-full p-5 flex flex-col justify-center items-center">
+        <marquee className='absolute top-0 left-0 w-full p-2 bg-pink-300 text-center text-5xl uppercase text-white'>
+         <h1>Love you babezz💛 Motaa Aaluuu🥔 Motuu billii😽 football⚽️ tarbuuuzz🍉 shark macchii🦈 fatsoooo</h1>
+        </marquee>
+      <Confetti />
+      <p>
+        Happy Birthday Babezzzz💛😽🐷 I hope you get everything you want in life
+        very easily... Kuch difficulty hui toh saath me problem solve kr
+        lenge...as i have always told you hum dono saath me kuch toh crazy hi
+        hainn😂 Tujhe kya lagta haii.. if u dont say it doesn't mean mujhe
+        samajh ni aata...Ik what i mean to you and u know what u mean to
+        mee....Sabsee bestt babezz h tuuu meraaa...😽 Tere bags purse dramme yeh
+        sab toh bohot choti cheezen h babezz....tu mere liyee inseeee bohot
+        zyadaa uparr haii...baat rahi tujhe padhane kii toh woh toh aise hi
+        saath baithke ache se padh lete h humm...tu hai hi Smartest Babezz...
+        Jisko rote dekh me apne aap ko control ni kr paata..woh tu h
+        moteee...jiske saath swaad khaana khaane ka mazaa hi alag haii...woh h
+        tuu...me itna pareshaan krtaa hun tujhee..game game bolke...tab bhi me
+        ek baar boldun ki ab no game.. punishment h merii...toh mujhe Huppp
+        bolne waala...woh h mera babezz... Pure din college ke baad tere saath
+        baithke baatein krke ice cream khaana...yeh aur kiske saath krtaa me
+        babezz... You are the only person jiske modde pe me apna sarr rakh ke ro
+        sktaa hun babezz...💛 Mene kabhi ni socha thaa ki kabhi aisa dost hoga
+        meraa jo mere liye Intel chod degaa...yeh tujhe chodke aurr koii nii kr
+        sktaa babezz... Agar kabhi mujhpe koi book likhega naa... toh sabseee
+        badaaaa (kyunki motuu h na tuu) aur important chapter tere naam ka hogaa
+        babezz... Even i cannot imagine my life without you babezz...bhale
+        mujhse kamm jagah leta ho tuu size wise... but importance wise sabseee
+        uparr h tuu... Ofc both of us didn't know what actual friendship was
+        until we met each other...tera v is bond ko strong krne me utna hi haath
+        h jitnaa meraa haiii motuuuu... College khamm hone ke baad bhale thoda
+        duur duur rahenge hum...but sirf 1-2 weeks max...usse zyada ni reh
+        paaunga tere bina me...aa hi jaaunga milneee tujhseee.. Ab thoda late
+        toh mile h hum ek dusre koo... but yeh non decreasing dosti hamari
+        kabhii ni tutegi babezz...i promise... Kuch v problem aayegi toh milke
+        solve kr lengee😽 And and i am really sorry...mene tujhe thoda daanta
+        thaa but woh pataa nii...pagal hi hun mee Also yeh likhte likhte thoda
+        sa rona aa rha haii kyunki me tere saath nahi hounda birthday pe... but
+        phir tu gussa ho jaayeda me rounda tohh... isiliye....Happy 4.2nd
+        Birthday Babezz... Love youuu Babezzz💛...and you will always be my
+        Motuuuu, Gaindaaa, Tarbuuuuzz, Papitaaa, Basketball, JCB, Suarrrr, Shark
+        Machhii, Aaluuuuuu...
+      </p>
+      <marquee className='absolute bottom-0 left-0 w-full p-2 bg-pink-300 text-center text-5xl uppercase text-white'>
+         <h1>Love you babezz💛 Motaa Aaluuu🥔 Motuu billii😽 football⚽️ tarbuuuzz🍉 shark macchii🦈 fatsoooo</h1>
+        </marquee>
     </div>
+  );
+};
 
-  )
-}
-
-export default page
+export default page;
