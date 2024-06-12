@@ -1,6 +1,6 @@
 "use client"; // Add this at the top of your file
 
-import Confetti from '@/components/Confetti'
+import Confetti from '@/Components/Confetti'
 import Link from 'next/link'
 import React from 'react'
 
