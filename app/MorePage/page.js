@@ -3,6 +3,7 @@
 import Confetti from '@/Components/Confetti'
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 
 const Page = () => {
   const images = [
@@ -27,8 +28,14 @@ const Page = () => {
       </ul>
       <div className='flex flex-wrap gap-4 justify-center'>
         {images.map((img, index) => (
-          <div key={index} className='w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px] bg-green-100'>
-            <img className='w-full h-full object-cover' src={`../images/${img}`} alt="Hey" />
+          <div key={index} className='w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px] bg-green-100 relative'>
+            <Image
+              src={`/images/${img}`}
+              alt="Hey"
+              layout="fill"
+              objectFit="cover"
+              quality={75}
+            />
           </div>
         ))}
       </div>
