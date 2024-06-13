@@ -12,6 +12,8 @@ const Page = () => {
     '1000014958.JPG.JPG'
   ];
 
+  const years = [2023, 2024];
+
   return (
     <div className='bg-pink-200 min-h-screen w-full p-5 flex flex-col relative pb-20'>
       <marquee className='absolute top-0 left-0 w-full p-2 bg-pink-300 text-center text-5xl uppercase text-white'>
@@ -19,12 +21,13 @@ const Page = () => {
       </marquee>
       <Confetti />
       <ul className='list-disc text-2xl p-10 m-5'>
-        <li><Link href="/2023">Click Here for 2023</Link></li>
-        <li><Link href="/2024">Click Here for 2024</Link></li>
+        {years.reverse().map((year, index) => (
+          <li key={index}><Link href={`/${year}`}>Click Here for {year}</Link></li>
+        ))}
       </ul>
       <div className='flex flex-wrap gap-4 justify-center'>
         {images.map((img, index) => (
-          <div className='w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px] bg-green-100'>
+          <div key={index} className='w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] xl:w-[300px] xl:h-[300px] bg-green-100'>
             <img className='w-full h-full object-cover' src={`../images/${img}`} alt="Hey" />
           </div>
         ))}
